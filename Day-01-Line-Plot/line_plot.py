@@ -33,4 +33,4 @@ plt.ylabel("Average Price")
 plt.grid(True)
 
 # Display the graph
-plt.
+plt.show()
