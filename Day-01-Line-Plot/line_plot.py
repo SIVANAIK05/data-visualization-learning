@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Load the dataset
 
 df = pd.read_csv(
-    "../datasets/Toyota.csv",
+    "../Datasets/Toyota.csv",
     index_col=0,
     na_values=["??", "???"]
 )
