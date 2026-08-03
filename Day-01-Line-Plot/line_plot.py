@@ -2,8 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset
+
 df = pd.read_csv(
-    r'C:\Users\sivan\OneDrive\Desktop\siva\self learn\AI by CII\Toyota.csv',
+    "../datasets/Toyota.csv",
     index_col=0,
     na_values=["??", "???"]
 )
@@ -32,4 +33,4 @@ plt.ylabel("Average Price")
 plt.grid(True)
 
 # Display the graph
-plt.show()
+plt.
