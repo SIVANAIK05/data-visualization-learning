@@ -13,10 +13,13 @@ df = pd.read_csv(
 # Remove missing values
 df.dropna(inplace=True)
 
+
+
 sns.lmplot(x='Age', y='Price', hue='FuelType', data=df,fit_reg=True, palette='Set1')
 plt.title('Age vs Price')
 
 plt.show()
+
 
 
 
